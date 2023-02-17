@@ -60,33 +60,33 @@
 
 ```sql
 SELECT 
-	cityID, SUM(distance) as distance_sum /* sum all the edge distance */
+	cityID, SUM(distance) as distance_sum 
 FROM
 (
-    SELECT /* calculate the distance for a road edge that is within the city boundary */
+    SELECT
   		cityID, 
   		geo_distance(lon1, lat1, lon2, lat2) AS distance
     FROM 
-  	( /* retrieve the edges with starting node inside city boundary */
-  		SELECT
-      	boundary.cityID
+  	( 
+  		SELECT  /*+ mapjoin(boundary) */
+      	boundary.cityID,
       	road.node_start_lon AS lon1, 
       	road.node_start_lat AS lat1, 
       	road.node_end_lon AS lon2, 
       	road.node_end_lat AS lat2,
         pnpoly(road.node_start_lon, road.node_start_lat, boundary.polygon) AS inPoly 
-        /* if the start node of the edge is in the polygon, we treat this edge in the polygon */
+       
       FROM
       	boundary, road
-    	WHERE /*bounding box filter*/
+    	WHERE
   			road.node_start_lon < boundary.maxlon	AND 
     		road.node_start_lon > boundary.minlon	AND 
     		road.node_start_lat < boundary.maxlat	AND 
-    		road.node_start_lat > boundary.minlat	AND
-      	inPoly = TRUE
+    		road.node_start_lat > boundary.minlat	
      )
+     WHERE inPoly = true
 )
-GROUP BY cityID;
+GROUP BY cityID
 ```
 
 
@@ -98,20 +98,20 @@ SELECT
 	cityID, SUM(light) as light_sum
 FROM
 (
-    SELECT 
+    SELECT  /*+ mapjoin(boundary) */
   		boundary.cityID, 
   		light.light,
       pnpoly(light.lon, light.lat, boundary.polygon) AS inPoly 
     FROM
       boundary, light
-    WHERE /*bounding box filter*/
+    WHERE 
   		light.lon < boundary.maxlon	AND 
     	light.lon > boundary.minlon	AND 
     	light.lat < boundary.maxlat	AND 
-    	light.lat > boundary.minlat	AND 
-      inPoly = TRUE
+    	light.lat > boundary.minlat	
 )
-GROUP BY cityID;
+WHERE inPoly = true
+GROUP BY cityID
 ```
 
 
@@ -123,20 +123,20 @@ SELECT
 	cityID, SUM(area) as area_sum
 FROM
 (
-    SELECT 
+    SELECT /*+ mapjoin(boundary) */
   		boundary.cityID, 
   		builtup.area,
       pnpoly(builtup.lon, builtup.lat, boundary.polygon) AS inPoly 
     FROM
       boundary, builtup
-    WHERE /*bounding box filter*/
+    WHERE 
   		builtup.lon < boundary.maxlon	AND 
     	builtup.lon > boundary.minlon	AND 
     	builtup.lat < boundary.maxlat	AND 
-    	builtup.lat > boundary.minlat	AND 
-      inPoly = TRUE
+    	builtup.lat > boundary.minlat	
 )
-GROUP BY cityID;
+WHERE inPoly = true
+GROUP BY cityID
 ```
 
 
@@ -148,20 +148,21 @@ SELECT
 	cityID, SUM(population) as population_sum
 FROM
 (
-    SELECT 
+    SELECT /*+ mapjoin(boundary) */
   		boundary.cityID, 
   		population.population,
       pnpoly(population.lon, population.lat, boundary.polygon) AS inPoly 
     FROM
       boundary, population
-    WHERE /*bounding box filter*/
+    WHERE
   		population.lon < boundary.maxlon	AND 
     	population.lon > boundary.minlon	AND 
     	population.lat < boundary.maxlat	AND 
-    	population.lat > boundary.minlat	AND 
-      inPoly = TRUE
+    	population.lat > boundary.minlat	
+      
 )
-GROUP BY cityID;
+WHERE inPoly = true
+GROUP BY cityID
 ```
 
 
@@ -238,7 +239,6 @@ FROM
   WHERE 
   	b.row = r.start_row AND 
     b.col = r.start_col
-  	/* if the start node of the edge is in the polygon, we treat this edge in the polygon */
 )
 GROUP BY cityID
 ```
