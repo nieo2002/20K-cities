@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T03:39:01.824Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Z3-5cwbMuw3q18JXMzKm" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T04:01:24.566Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="C5ai0SL1wgL_9kDm8f8p" version="22.1.8" type="github">
   <diagram name="第 1 页" id="IHF5-MnVfziSvlJcvq6w">
-    <mxGraphModel dx="1053" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1115" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="320" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="205" y="477" />
+              <mxPoint x="230" y="477" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -42,9 +42,21 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IRgwDZgw4Co34BkoaDT--44" value="ssh或者通过集成开发工具&lt;br&gt;远程登录ECS进行开发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IRgwDZgw4Co34BkoaDT--43">
+        <mxCell id="IRgwDZgw4Co34BkoaDT--44" value="ssh到ECS进行代码调试，数据处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IRgwDZgw4Co34BkoaDT--43">
           <mxGeometry x="0.3221" y="-5" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="40" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="IRgwDZgw4Co34BkoaDT--29" target="IRgwDZgw4Co34BkoaDT--47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="745" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--50" value="数据开发，调用接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IRgwDZgw4Co34BkoaDT--49">
+          <mxGeometry x="0.7824" y="-2" relative="1" as="geometry">
+            <mxPoint x="-24" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IRgwDZgw4Co34BkoaDT--29" value="用户开发终端机器" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
@@ -145,6 +157,41 @@
         </mxCell>
         <mxCell id="IRgwDZgw4Co34BkoaDT--40" value="ECS，RDS，OSS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="391" y="598" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--47" value="citybrain platform&lt;br&gt;python SDK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="381" y="700" width="144" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--48" value="citybrain 数据开发SDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="381" y="673" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="336" as="sourcePoint" />
+            <mxPoint x="401" y="628" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="660" />
+              <mxPoint x="401" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--53" value="通过集成开发工具远程到ECS进行开发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IRgwDZgw4Co34BkoaDT--52">
+          <mxGeometry x="0.3221" y="-5" relative="1" as="geometry">
+            <mxPoint x="29" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="304" as="sourcePoint" />
+            <mxPoint x="401" y="596" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="596" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--57" value="拿到资源后，用户使用自定义安装包&lt;br&gt;镜像进行服务的手动部署" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IRgwDZgw4Co34BkoaDT--56">
+          <mxGeometry x="0.3221" y="-5" relative="1" as="geometry">
+            <mxPoint x="41" y="-26" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
