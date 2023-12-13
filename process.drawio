@@ -1,9 +1,151 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T03:09:28.914Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="22.1.5" etag="TBeHdm9xFAQ2KsnhT-g9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T03:39:01.824Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Z3-5cwbMuw3q18JXMzKm" version="22.1.8" type="github">
   <diagram name="第 1 页" id="IHF5-MnVfziSvlJcvq6w">
-    <mxGraphModel>
+    <mxGraphModel dx="1053" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IRgwDZgw4Co34BkoaDT--37" value="发放的资源" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="386" y="560" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="IRgwDZgw4Co34BkoaDT--29" target="IRgwDZgw4Co34BkoaDT--4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="205" y="477" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--31" value="申请资源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IRgwDZgw4Co34BkoaDT--30">
+          <mxGeometry x="-0.1425" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="269" y="289" as="sourcePoint" />
+            <mxPoint x="391.0000000000002" y="289" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="289" />
+              <mxPoint x="300" y="289" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--35" value="代码更新" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IRgwDZgw4Co34BkoaDT--34">
+          <mxGeometry x="0.1434" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IRgwDZgw4Co34BkoaDT--29" target="IRgwDZgw4Co34BkoaDT--40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="618" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--44" value="ssh或者通过集成开发工具&lt;br&gt;远程登录ECS进行开发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IRgwDZgw4Co34BkoaDT--43">
+          <mxGeometry x="0.3221" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--29" value="用户开发终端机器" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="79" y="216" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--2" value="资源申请及管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="391" y="401" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IRgwDZgw4Co34BkoaDT--3" target="IRgwDZgw4Co34BkoaDT--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--16" value="根据规则&lt;br&gt;自动拉相应代码&lt;br&gt;进行编译打包" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IRgwDZgw4Co34BkoaDT--15">
+          <mxGeometry x="0.0909" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IRgwDZgw4Co34BkoaDT--3" target="IRgwDZgw4Co34BkoaDT--29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--33" value="代码checkout" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IRgwDZgw4Co34BkoaDT--32">
+          <mxGeometry x="-0.3281" y="3" relative="1" as="geometry">
+            <mxPoint x="-11" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--3" value="gitlab" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="391" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IRgwDZgw4Co34BkoaDT--4" target="IRgwDZgw4Co34BkoaDT--37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--42" value="资源开通" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IRgwDZgw4Co34BkoaDT--41">
+          <mxGeometry x="0.0948" y="2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--4" value="CM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="391" y="432" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--5" value="代码仓库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="391" y="210" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IRgwDZgw4Co34BkoaDT--6" target="IRgwDZgw4Co34BkoaDT--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--18" value="编译好的应用镜像&lt;br&gt;下发到对应&lt;br&gt;镜像仓库中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IRgwDZgw4Co34BkoaDT--17">
+          <mxGeometry x="-0.1042" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IRgwDZgw4Co34BkoaDT--6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="717" y="420" />
+              <mxPoint x="911" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--20" value="通知k8s拉相应镜像到&lt;br&gt;集群，并根据配置的好的规格&lt;br&gt;启动应用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IRgwDZgw4Co34BkoaDT--19">
+          <mxGeometry x="0.3746" y="-2" relative="1" as="geometry">
+            <mxPoint y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--6" value="jenkins" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="657" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IRgwDZgw4Co34BkoaDT--8" target="IRgwDZgw4Co34BkoaDT--13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--22" value="k8s根据jenkins的要求，&lt;br&gt;拉相应镜像到k8s集群" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IRgwDZgw4Co34BkoaDT--21">
+          <mxGeometry x="0.0526" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--8" value="ACR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="923" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--9" value="k8s集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="923" y="402" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--10" value="git 客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="248" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--11" value="系统集成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="657" y="210" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--12" value="镜像仓库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="923" y="210" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--13" value="在线服务部署集群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="923" y="372" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--14" value="git客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="224" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--39" value="ECS，RDS，OSS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1200" width="105" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--40" value="ECS，RDS，OSS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="391" y="598" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
