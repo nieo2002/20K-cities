@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T09:17:22.771Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="6-65wdwIj08-OuX45bYr" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T09:45:26.255Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="8i1SWjwhD2nPbuLDPqfj" version="22.1.8" type="github">
   <diagram name="第 1 页" id="IHF5-MnVfziSvlJcvq6w">
-    <mxGraphModel dx="1115" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1901" dy="1046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -154,9 +154,6 @@
         <mxCell id="IRgwDZgw4Co34BkoaDT--14" value="git客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="224" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IRgwDZgw4Co34BkoaDT--39" value="ECS，RDS，OSS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="1200" width="105" height="25" as="geometry" />
-        </mxCell>
         <mxCell id="IRgwDZgw4Co34BkoaDT--40" value="ECS，RDS，OSS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="391" y="598" width="120" height="40" as="geometry" />
         </mxCell>
@@ -198,7 +195,7 @@
         <mxCell id="IRgwDZgw4Co34BkoaDT--64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IRgwDZgw4Co34BkoaDT--58" target="IRgwDZgw4Co34BkoaDT--62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IRgwDZgw4Co34BkoaDT--65" value="账号申请" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IRgwDZgw4Co34BkoaDT--64">
+        <mxCell id="IRgwDZgw4Co34BkoaDT--65" value="账号申请，镜像仓库申请" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IRgwDZgw4Co34BkoaDT--64">
           <mxGeometry x="-0.0919" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -223,8 +220,8 @@
         <mxCell id="IRgwDZgw4Co34BkoaDT--63" value="平台管理员" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="490" y="870" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IRgwDZgw4Co34BkoaDT--66" value="VPN账号&lt;br&gt;CM账号&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="310" y="953" width="70" height="40" as="geometry" />
+        <mxCell id="IRgwDZgw4Co34BkoaDT--66" value="VPN账号&lt;br&gt;CM账号&lt;br&gt;ACR上镜像仓库namespace" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="263" y="956" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IRgwDZgw4Co34BkoaDT--68" value="账号发放" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="325" y="1040" width="111" height="40" as="geometry" />
@@ -315,6 +312,78 @@
           <mxGeometry x="-0.2275" relative="1" as="geometry">
             <mxPoint y="2" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IRgwDZgw4Co34BkoaDT--104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1213" y="1254" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--109" value="申请VPN账号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IRgwDZgw4Co34BkoaDT--108">
+          <mxGeometry x="-0.0994" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--104" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1224" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--105" value="开发者" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1181" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="IRgwDZgw4Co34BkoaDT--106" target="IRgwDZgw4Co34BkoaDT--110">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1233" y="1341" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--106" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1221" y="1226" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--107" value="平台管理员" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1203" y="1180" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IRgwDZgw4Co34BkoaDT--110" target="IRgwDZgw4Co34BkoaDT--112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--110" value="账号发放" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1063" y="1311" width="111" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IRgwDZgw4Co34BkoaDT--112" target="IRgwDZgw4Co34BkoaDT--117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--112" value="VPN配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1058.5" y="1391" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--115" value="注册gitlab账号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1288.7647058823532" y="1417" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IRgwDZgw4Co34BkoaDT--117" target="IRgwDZgw4Co34BkoaDT--118">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1421" y="1521" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1493" y="1492" />
+              <mxPoint x="1414" y="1492" />
+              <mxPoint x="1414" y="1543" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--117" value="gitlab" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1403" y="1381" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IRgwDZgw4Co34BkoaDT--118" target="IRgwDZgw4Co34BkoaDT--120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--118" value="账号审批通过" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1283" y="1523.5" width="111" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--120" value="使用git 客户端进行代码的开发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1073" y="1513.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--123" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="983" y="673" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IRgwDZgw4Co34BkoaDT--124" value="开发管理员" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="963" y="630" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
