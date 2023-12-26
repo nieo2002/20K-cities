@@ -1,46 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2023-12-26T02:25:24.213Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="5e_SONe7MET1g1kugbpm" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-26T03:24:45.064Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="QdcvpCH-GGF1ibKaA1pM" version="22.1.11" type="github">
   <diagram name="第 1 页" id="PR04_hHb-Y1HilmeZlOw">
-    <mxGraphModel dx="1018" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PmjK9yz6c--jbu39in0--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PmjK9yz6c--jbu39in0--1" target="PmjK9yz6c--jbu39in0--3">
+        <mxCell id="PmjK9yz6c--jbu39in0--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PmjK9yz6c--jbu39in0--1" target="PmjK9yz6c--jbu39in0--3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PmjK9yz6c--jbu39in0--12" value="根据规则自动pull相应代码&lt;br&gt;进行编译打包" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PmjK9yz6c--jbu39in0--11">
+        <mxCell id="PmjK9yz6c--jbu39in0--12" value="根据规则自动pull相应代码&lt;br&gt;进行编译打包" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="PmjK9yz6c--jbu39in0--11" vertex="1" connectable="0">
           <mxGeometry x="-0.0082" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PmjK9yz6c--jbu39in0--1" value="Gitlab" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="290" y="110" width="120" height="60" as="geometry" />
+        <mxCell id="PmjK9yz6c--jbu39in0--1" value="Gitlab" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="290" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PmjK9yz6c--jbu39in0--2" value="代码仓库版本控制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="291" y="176" width="120" height="30" as="geometry" />
+        <mxCell id="PmjK9yz6c--jbu39in0--2" value="代码仓库版本控制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="291" y="150" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PmjK9yz6c--jbu39in0--3" value="Jenkins" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="600" y="110" width="120" height="60" as="geometry" />
+        <mxCell id="z97M-Kj-8ajkmH52QQyC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PmjK9yz6c--jbu39in0--3" target="PmjK9yz6c--jbu39in0--5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PmjK9yz6c--jbu39in0--4" value="CI/CD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="631" y="176" width="60" height="30" as="geometry" />
+        <mxCell id="z97M-Kj-8ajkmH52QQyC-2" value="镜像下发到ACR中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="z97M-Kj-8ajkmH52QQyC-1">
+          <mxGeometry x="-0.0306" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="PmjK9yz6c--jbu39in0--5" value="ACR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="810" y="110" width="120" height="60" as="geometry" />
+        <mxCell id="z97M-Kj-8ajkmH52QQyC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PmjK9yz6c--jbu39in0--3" target="PmjK9yz6c--jbu39in0--7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PmjK9yz6c--jbu39in0--6" value="云环境：&lt;br&gt;镜像仓库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="836" y="171" width="70" height="40" as="geometry" />
+        <mxCell id="z97M-Kj-8ajkmH52QQyC-6" value="通知k8s集群pull镜像，并按&lt;br&gt;指定的规则部署镜像" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="z97M-Kj-8ajkmH52QQyC-5">
+          <mxGeometry x="-0.2103" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="PmjK9yz6c--jbu39in0--7" value="k8s集群" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="601" y="290" width="120" height="60" as="geometry" />
+        <mxCell id="PmjK9yz6c--jbu39in0--3" value="Jenkins" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="600" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PmjK9yz6c--jbu39in0--8" value="服务部署环境" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="612" y="356" width="100" height="30" as="geometry" />
+        <mxCell id="PmjK9yz6c--jbu39in0--4" value="CI/CD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="632" y="150" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PmjK9yz6c--jbu39in0--9" value="云产品" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="291" y="20" width="120" height="20" as="geometry" />
+        <mxCell id="PmjK9yz6c--jbu39in0--5" value="ACR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="880" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PmjK9yz6c--jbu39in0--10" value="云上环境部署" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="291" y="50" width="120" height="20" as="geometry" />
+        <mxCell id="z97M-Kj-8ajkmH52QQyC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="PmjK9yz6c--jbu39in0--7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="910" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z97M-Kj-8ajkmH52QQyC-4" value="根据Jenkins配好的规则，&lt;br&gt;pull镜像到集群上" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="z97M-Kj-8ajkmH52QQyC-3">
+          <mxGeometry x="0.1984" y="3" relative="1" as="geometry">
+            <mxPoint x="60" y="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmjK9yz6c--jbu39in0--6" value="云环境：&lt;br&gt;镜像仓库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="905" y="140" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PmjK9yz6c--jbu39in0--7" value="k8s集群" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="599" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PmjK9yz6c--jbu39in0--8" value="服务部署环境" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="610" y="426" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PmjK9yz6c--jbu39in0--9" value="云产品" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="291" y="60" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PmjK9yz6c--jbu39in0--10" value="云上环境部署" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="291" y="90" width="119" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
