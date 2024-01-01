@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-01T08:36:34.018Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="IVe3JypArzoSF4zG-G2R" version="22.1.15" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-01T08:44:04.525Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="s-KNQyT6ZrHthgjrbXZV" version="22.1.15" type="github">
   <diagram name="第 1 页" id="PR04_hHb-Y1HilmeZlOw">
-    <mxGraphModel dx="1683" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1554" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,15 +104,38 @@
         <mxCell id="habpimvgPT132JKMXdbV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="habpimvgPT132JKMXdbV-1" target="z97M-Kj-8ajkmH52QQyC-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="340" y="629" />
+              <mxPoint x="380" y="629" />
               <mxPoint x="570" y="629" />
-              <mxPoint x="570" y="630" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="habpimvgPT132JKMXdbV-13" value="非常用资源申请&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(Nat绑定，OTS...)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="habpimvgPT132JKMXdbV-11">
           <mxGeometry x="0.4842" y="3" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="habpimvgPT132JKMXdbV-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="habpimvgPT132JKMXdbV-1" target="habpimvgPT132JKMXdbV-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="habpimvgPT132JKMXdbV-22" value="数据处理&lt;br&gt;大规模计算" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="habpimvgPT132JKMXdbV-21">
+          <mxGeometry x="0.4844" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="habpimvgPT132JKMXdbV-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="habpimvgPT132JKMXdbV-1" target="habpimvgPT132JKMXdbV-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="902" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="habpimvgPT132JKMXdbV-26" value="数据查找&lt;br&gt;不同协议数据的无缝访问" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="habpimvgPT132JKMXdbV-25">
+          <mxGeometry x="0.6295" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="habpimvgPT132JKMXdbV-1" value="git客户端" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
@@ -138,6 +161,18 @@
         </mxCell>
         <mxCell id="habpimvgPT132JKMXdbV-18" value="客户机器上安装软件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="265" y="30" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="habpimvgPT132JKMXdbV-19" value="Citybrain platform&lt;br&gt;（ODPS）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="584" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="habpimvgPT132JKMXdbV-20" value="资源申请与管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="590" y="700" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="habpimvgPT132JKMXdbV-23" value="中枢系统" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="585" y="857" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="habpimvgPT132JKMXdbV-24" value="数据发现数据连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="586" y="827" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
