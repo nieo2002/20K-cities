@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2024-01-01T08:31:49.694Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="F1rXwX3LGXsTmyNVB8Ta" version="22.1.15" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-01T08:33:16.133Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="AGsAxWstKyoVtqNffraj" version="22.1.15" type="github">
   <diagram name="第 1 页" id="PR04_hHb-Y1HilmeZlOw">
     <mxGraphModel dx="1443" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="habpimvgPT132JKMXdbV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="habpimvgPT132JKMXdbV-3" target="z97M-Kj-8ajkmH52QQyC-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="485" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="habpimvgPT132JKMXdbV-10" value="常用资源申请&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;（ECS,RDS,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;OSS,EIP)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="habpimvgPT132JKMXdbV-9">
+          <mxGeometry x="0.3395" y="5" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="habpimvgPT132JKMXdbV-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="187" width="180" height="90" as="geometry" />
         </mxCell>
@@ -75,39 +87,27 @@
           <mxGeometry x="591" y="110" width="119" height="20" as="geometry" />
         </mxCell>
         <mxCell id="z97M-Kj-8ajkmH52QQyC-7" value="CM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="575" y="964" width="120" height="60" as="geometry" />
+          <mxGeometry x="591" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z97M-Kj-8ajkmH52QQyC-8" value="资源申请与管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
-          <mxGeometry x="581" y="934" width="110" height="30" as="geometry" />
+          <mxGeometry x="597" y="410" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="z97M-Kj-8ajkmH52QQyC-9" value="ASCM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="785" y="964" width="120" height="60" as="geometry" />
+          <mxGeometry x="590" y="595" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z97M-Kj-8ajkmH52QQyC-10" value="云平台运维管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="790" y="929" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="z97M-Kj-8ajkmH52QQyC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="z97M-Kj-8ajkmH52QQyC-12" target="z97M-Kj-8ajkmH52QQyC-7" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="535" y="994" />
-              <mxPoint x="535" y="994" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="z97M-Kj-8ajkmH52QQyC-16" value="常用资源申请&lt;br&gt;（ECS,RDS,&lt;br&gt;OSS,EIP)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="z97M-Kj-8ajkmH52QQyC-15" vertex="1" connectable="0">
-          <mxGeometry x="-0.2374" y="1" relative="1" as="geometry">
-            <mxPoint x="16" y="1" as="offset" />
-          </mxGeometry>
+          <mxGeometry x="595" y="560" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="z97M-Kj-8ajkmH52QQyC-12" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="390" y="964" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z97M-Kj-8ajkmH52QQyC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.617;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="z97M-Kj-8ajkmH52QQyC-12" target="z97M-Kj-8ajkmH52QQyC-9" edge="1">
+        <mxCell id="z97M-Kj-8ajkmH52QQyC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="z97M-Kj-8ajkmH52QQyC-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="405" y="1084" />
               <mxPoint x="859" y="1084" />
             </Array>
+            <mxPoint x="830" y="696" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="z97M-Kj-8ajkmH52QQyC-18" value="非常用资源申请&lt;br&gt;(Nat绑定，OTS...)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="z97M-Kj-8ajkmH52QQyC-17" vertex="1" connectable="0">
@@ -123,6 +123,18 @@
         </mxCell>
         <mxCell id="habpimvgPT132JKMXdbV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="habpimvgPT132JKMXdbV-1" target="PmjK9yz6c--jbu39in0--1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="habpimvgPT132JKMXdbV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="habpimvgPT132JKMXdbV-1" target="z97M-Kj-8ajkmH52QQyC-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="habpimvgPT132JKMXdbV-13" value="非常用资源申请&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(Nat绑定，OTS...)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="habpimvgPT132JKMXdbV-11">
+          <mxGeometry x="0.4842" y="3" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="habpimvgPT132JKMXdbV-1" value="git客户端" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="290" y="199" width="120" height="60" as="geometry" />
